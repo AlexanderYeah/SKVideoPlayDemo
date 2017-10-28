@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AABEB01FA449E4009BBEB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AABEAF1FA449E4009BBEB4 /* main.m */; };
+		03AABEB31FA449E4009BBEB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AABEB21FA449E4009BBEB4 /* AppDelegate.m */; };
+		03AABEB61FA449E4009BBEB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AABEB51FA449E4009BBEB4 /* ViewController.m */; };
+		03AABEB91FA449E4009BBEB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEB71FA449E4009BBEB4 /* Main.storyboard */; };
+		03AABEBB1FA449E4009BBEB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEBA1FA449E4009BBEB4 /* Assets.xcassets */; };
+		03AABEBE1FA449E4009BBEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEBC1FA449E4009BBEB4 /* LaunchScreen.storyboard */; };
+		03AABEC91FA449E5009BBEB4 /* SKVideoPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AABEC81FA449E5009BBEB4 /* SKVideoPlayTests.m */; };
+		03AABED41FA449E5009BBEB4 /* SKVideoPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AABED31FA449E5009BBEB4 /* SKVideoPlayUITests.m */; };
+		03AABF061FA44A03009BBEB4 /* FullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AABEE31FA44A03009BBEB4 /* FullViewController.m */; };
+		03AABF071FA44A03009BBEB4 /* VideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AABEE51FA44A03009BBEB4 /* VideoPlayView.m */; };
+		03AABF081FA44A03009BBEB4 /* VideoPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEE61FA44A03009BBEB4 /* VideoPlayView.xib */; };
+		03AABF091FA44A03009BBEB4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEE91FA44A03009BBEB4 /* Contents.json */; };
+		03AABF0A1FA44A03009BBEB4 /* bg_media_default@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEEB1FA44A03009BBEB4 /* bg_media_default@2x.jpg */; };
+		03AABF0B1FA44A03009BBEB4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEEC1FA44A03009BBEB4 /* Contents.json */; };
+		03AABF0C1FA44A03009BBEB4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEEE1FA44A03009BBEB4 /* Contents.json */; };
+		03AABF0D1FA44A03009BBEB4 /* full_minimize_btn_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEEF1FA44A03009BBEB4 /* full_minimize_btn_hl@2x.png */; };
+		03AABF0E1FA44A03009BBEB4 /* full_minimize_btn_hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEF01FA44A03009BBEB4 /* full_minimize_btn_hl@3x.png */; };
+		03AABF0F1FA44A03009BBEB4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEF21FA44A03009BBEB4 /* Contents.json */; };
+		03AABF101FA44A03009BBEB4 /* full_pause_btn_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEF31FA44A03009BBEB4 /* full_pause_btn_hl@2x.png */; };
+		03AABF111FA44A03009BBEB4 /* full_pause_btn_hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEF41FA44A03009BBEB4 /* full_pause_btn_hl@3x.png */; };
+		03AABF121FA44A03009BBEB4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEF61FA44A03009BBEB4 /* Contents.json */; };
+		03AABF131FA44A03009BBEB4 /* full_play_btn_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEF71FA44A03009BBEB4 /* full_play_btn_hl@2x.png */; };
+		03AABF141FA44A03009BBEB4 /* full_play_btn_hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEF81FA44A03009BBEB4 /* full_play_btn_hl@3x.png */; };
+		03AABF151FA44A03009BBEB4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEFA1FA44A03009BBEB4 /* Contents.json */; };
+		03AABF161FA44A03009BBEB4 /* MaximumTrackImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEFB1FA44A03009BBEB4 /* MaximumTrackImage@2x.png */; };
+		03AABF171FA44A03009BBEB4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEFD1FA44A03009BBEB4 /* Contents.json */; };
+		03AABF181FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEFE1FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl@2x.png */; };
+		03AABF191FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABEFF1FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl@3x.png */; };
+		03AABF1A1FA44A03009BBEB4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AABF011FA44A03009BBEB4 /* Contents.json */; };
+		03AABF1B1FA44A03009BBEB4 /* MinimumTrackImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABF021FA44A03009BBEB4 /* MinimumTrackImage@2x.png */; };
+		03AABF1C1FA44A03009BBEB4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AABF041FA44A03009BBEB4 /* Contents.json */; };
+		03AABF1D1FA44A03009BBEB4 /* thumbImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AABF051FA44A03009BBEB4 /* thumbImage@2x.png */; };
+		03AABF1F1FA44C1E009BBEB4 /* register_guide_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 03AABF1E1FA44C1E009BBEB4 /* register_guide_video.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03AABEC51FA449E5009BBEB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AABEA31FA449E4009BBEB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AABEAA1FA449E4009BBEB4;
+			remoteInfo = SKVideoPlay;
+		};
+		03AABED01FA449E5009BBEB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AABEA31FA449E4009BBEB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AABEAA1FA449E4009BBEB4;
+			remoteInfo = SKVideoPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AABEAB1FA449E4009BBEB4 /* SKVideoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKVideoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AABEAF1FA449E4009BBEB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03AABEB11FA449E4009BBEB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03AABEB21FA449E4009BBEB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03AABEB41FA449E4009BBEB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03AABEB51FA449E4009BBEB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03AABEB81FA449E4009BBEB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03AABEBA1FA449E4009BBEB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AABEBD1FA449E4009BBEB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03AABEBF1FA449E4009BBEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AABEC41FA449E5009BBEB4 /* SKVideoPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKVideoPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AABEC81FA449E5009BBEB4 /* SKVideoPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKVideoPlayTests.m; sourceTree = "<group>"; };
+		03AABECA1FA449E5009BBEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AABECF1FA449E5009BBEB4 /* SKVideoPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKVideoPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AABED31FA449E5009BBEB4 /* SKVideoPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKVideoPlayUITests.m; sourceTree = "<group>"; };
+		03AABED51FA449E5009BBEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AABEE21FA44A03009BBEB4 /* FullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullViewController.h; sourceTree = "<group>"; };
+		03AABEE31FA44A03009BBEB4 /* FullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullViewController.m; sourceTree = "<group>"; };
+		03AABEE41FA44A03009BBEB4 /* VideoPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayView.h; sourceTree = "<group>"; };
+		03AABEE51FA44A03009BBEB4 /* VideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayView.m; sourceTree = "<group>"; };
+		03AABEE61FA44A03009BBEB4 /* VideoPlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoPlayView.xib; sourceTree = "<group>"; };
+		03AABEE91FA44A03009BBEB4 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		03AABEEB1FA44A03009BBEB4 /* bg_media_default@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_media_default@2x.jpg"; sourceTree = "<group>"; };
+		03AABEEC1FA44A03009BBEB4 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		03AABEEE1FA44A03009BBEB4 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		03AABEEF1FA44A03009BBEB4 /* full_minimize_btn_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_minimize_btn_hl@2x.png"; sourceTree = "<group>"; };
+		03AABEF01FA44A03009BBEB4 /* full_minimize_btn_hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_minimize_btn_hl@3x.png"; sourceTree = "<group>"; };
+		03AABEF21FA44A03009BBEB4 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		03AABEF31FA44A03009BBEB4 /* full_pause_btn_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_pause_btn_hl@2x.png"; sourceTree = "<group>"; };
+		03AABEF41FA44A03009BBEB4 /* full_pause_btn_hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_pause_btn_hl@3x.png"; sourceTree = "<group>"; };
+		03AABEF61FA44A03009BBEB4 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		03AABEF71FA44A03009BBEB4 /* full_play_btn_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_play_btn_hl@2x.png"; sourceTree = "<group>"; };
+		03AABEF81FA44A03009BBEB4 /* full_play_btn_hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_play_btn_hl@3x.png"; sourceTree = "<group>"; };
+		03AABEFA1FA44A03009BBEB4 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		03AABEFB1FA44A03009BBEB4 /* MaximumTrackImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MaximumTrackImage@2x.png"; sourceTree = "<group>"; };
+		03AABEFD1FA44A03009BBEB4 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		03AABEFE1FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_launchFullScreen_btn_hl@2x.png"; sourceTree = "<group>"; };
+		03AABEFF1FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_launchFullScreen_btn_hl@3x.png"; sourceTree = "<group>"; };
+		03AABF011FA44A03009BBEB4 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		03AABF021FA44A03009BBEB4 /* MinimumTrackImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MinimumTrackImage@2x.png"; sourceTree = "<group>"; };
+		03AABF041FA44A03009BBEB4 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		03AABF051FA44A03009BBEB4 /* thumbImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbImage@2x.png"; sourceTree = "<group>"; };
+		03AABF1E1FA44C1E009BBEB4 /* register_guide_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = register_guide_video.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AABEA81FA449E4009BBEB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AABEC11FA449E5009BBEB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AABECC1FA449E5009BBEB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AABEA21FA449E4009BBEB4 = {
+			isa = PBXGroup;
+			children = (
+				03AABEAD1FA449E4009BBEB4 /* SKVideoPlay */,
+				03AABEC71FA449E5009BBEB4 /* SKVideoPlayTests */,
+				03AABED21FA449E5009BBEB4 /* SKVideoPlayUITests */,
+				03AABEAC1FA449E4009BBEB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03AABEAC1FA449E4009BBEB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEAB1FA449E4009BBEB4 /* SKVideoPlay.app */,
+				03AABEC41FA449E5009BBEB4 /* SKVideoPlayTests.xctest */,
+				03AABECF1FA449E5009BBEB4 /* SKVideoPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AABEAD1FA449E4009BBEB4 /* SKVideoPlay */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEB11FA449E4009BBEB4 /* AppDelegate.h */,
+				03AABEB21FA449E4009BBEB4 /* AppDelegate.m */,
+				03AABEB41FA449E4009BBEB4 /* ViewController.h */,
+				03AABEB51FA449E4009BBEB4 /* ViewController.m */,
+				03AABF1E1FA44C1E009BBEB4 /* register_guide_video.mp4 */,
+				03AABEB71FA449E4009BBEB4 /* Main.storyboard */,
+				03AABEBA1FA449E4009BBEB4 /* Assets.xcassets */,
+				03AABEE11FA44A03009BBEB4 /* video view */,
+				03AABEBC1FA449E4009BBEB4 /* LaunchScreen.storyboard */,
+				03AABEBF1FA449E4009BBEB4 /* Info.plist */,
+				03AABEAE1FA449E4009BBEB4 /* Supporting Files */,
+			);
+			path = SKVideoPlay;
+			sourceTree = "<group>";
+		};
+		03AABEAE1FA449E4009BBEB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEAF1FA449E4009BBEB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03AABEC71FA449E5009BBEB4 /* SKVideoPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEC81FA449E5009BBEB4 /* SKVideoPlayTests.m */,
+				03AABECA1FA449E5009BBEB4 /* Info.plist */,
+			);
+			path = SKVideoPlayTests;
+			sourceTree = "<group>";
+		};
+		03AABED21FA449E5009BBEB4 /* SKVideoPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03AABED31FA449E5009BBEB4 /* SKVideoPlayUITests.m */,
+				03AABED51FA449E5009BBEB4 /* Info.plist */,
+			);
+			path = SKVideoPlayUITests;
+			sourceTree = "<group>";
+		};
+		03AABEE11FA44A03009BBEB4 /* video view */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEE21FA44A03009BBEB4 /* FullViewController.h */,
+				03AABEE31FA44A03009BBEB4 /* FullViewController.m */,
+				03AABEE41FA44A03009BBEB4 /* VideoPlayView.h */,
+				03AABEE51FA44A03009BBEB4 /* VideoPlayView.m */,
+				03AABEE61FA44A03009BBEB4 /* VideoPlayView.xib */,
+				03AABEE71FA44A03009BBEB4 /* 图标 */,
+			);
+			path = "video view";
+			sourceTree = "<group>";
+		};
+		03AABEE71FA44A03009BBEB4 /* 图标 */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEE81FA44A03009BBEB4 /* AppIcon.appiconset */,
+				03AABEEA1FA44A03009BBEB4 /* bg_media_default.imageset */,
+				03AABEED1FA44A03009BBEB4 /* full_minimize_btn_hl.imageset */,
+				03AABEF11FA44A03009BBEB4 /* full_pause_btn_hl.imageset */,
+				03AABEF51FA44A03009BBEB4 /* full_play_btn_hl.imageset */,
+				03AABEF91FA44A03009BBEB4 /* MaximumTrackImage.imageset */,
+				03AABEFC1FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl.imageset */,
+				03AABF001FA44A03009BBEB4 /* MinimumTrackImage.imageset */,
+				03AABF031FA44A03009BBEB4 /* thumbImage.imageset */,
+			);
+			path = "图标";
+			sourceTree = "<group>";
+		};
+		03AABEE81FA44A03009BBEB4 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEE91FA44A03009BBEB4 /* Contents.json */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		03AABEEA1FA44A03009BBEB4 /* bg_media_default.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEEB1FA44A03009BBEB4 /* bg_media_default@2x.jpg */,
+				03AABEEC1FA44A03009BBEB4 /* Contents.json */,
+			);
+			path = bg_media_default.imageset;
+			sourceTree = "<group>";
+		};
+		03AABEED1FA44A03009BBEB4 /* full_minimize_btn_hl.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEEE1FA44A03009BBEB4 /* Contents.json */,
+				03AABEEF1FA44A03009BBEB4 /* full_minimize_btn_hl@2x.png */,
+				03AABEF01FA44A03009BBEB4 /* full_minimize_btn_hl@3x.png */,
+			);
+			path = full_minimize_btn_hl.imageset;
+			sourceTree = "<group>";
+		};
+		03AABEF11FA44A03009BBEB4 /* full_pause_btn_hl.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEF21FA44A03009BBEB4 /* Contents.json */,
+				03AABEF31FA44A03009BBEB4 /* full_pause_btn_hl@2x.png */,
+				03AABEF41FA44A03009BBEB4 /* full_pause_btn_hl@3x.png */,
+			);
+			path = full_pause_btn_hl.imageset;
+			sourceTree = "<group>";
+		};
+		03AABEF51FA44A03009BBEB4 /* full_play_btn_hl.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEF61FA44A03009BBEB4 /* Contents.json */,
+				03AABEF71FA44A03009BBEB4 /* full_play_btn_hl@2x.png */,
+				03AABEF81FA44A03009BBEB4 /* full_play_btn_hl@3x.png */,
+			);
+			path = full_play_btn_hl.imageset;
+			sourceTree = "<group>";
+		};
+		03AABEF91FA44A03009BBEB4 /* MaximumTrackImage.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEFA1FA44A03009BBEB4 /* Contents.json */,
+				03AABEFB1FA44A03009BBEB4 /* MaximumTrackImage@2x.png */,
+			);
+			path = MaximumTrackImage.imageset;
+			sourceTree = "<group>";
+		};
+		03AABEFC1FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				03AABEFD1FA44A03009BBEB4 /* Contents.json */,
+				03AABEFE1FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl@2x.png */,
+				03AABEFF1FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl@3x.png */,
+			);
+			path = mini_launchFullScreen_btn_hl.imageset;
+			sourceTree = "<group>";
+		};
+		03AABF001FA44A03009BBEB4 /* MinimumTrackImage.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				03AABF011FA44A03009BBEB4 /* Contents.json */,
+				03AABF021FA44A03009BBEB4 /* MinimumTrackImage@2x.png */,
+			);
+			path = MinimumTrackImage.imageset;
+			sourceTree = "<group>";
+		};
+		03AABF031FA44A03009BBEB4 /* thumbImage.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				03AABF041FA44A03009BBEB4 /* Contents.json */,
+				03AABF051FA44A03009BBEB4 /* thumbImage@2x.png */,
+			);
+			path = thumbImage.imageset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AABEAA1FA449E4009BBEB4 /* SKVideoPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AABED81FA449E5009BBEB4 /* Build configuration list for PBXNativeTarget "SKVideoPlay" */;
+			buildPhases = (
+				03AABEA71FA449E4009BBEB4 /* Sources */,
+				03AABEA81FA449E4009BBEB4 /* Frameworks */,
+				03AABEA91FA449E4009BBEB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKVideoPlay;
+			productName = SKVideoPlay;
+			productReference = 03AABEAB1FA449E4009BBEB4 /* SKVideoPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03AABEC31FA449E5009BBEB4 /* SKVideoPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AABEDB1FA449E5009BBEB4 /* Build configuration list for PBXNativeTarget "SKVideoPlayTests" */;
+			buildPhases = (
+				03AABEC01FA449E5009BBEB4 /* Sources */,
+				03AABEC11FA449E5009BBEB4 /* Frameworks */,
+				03AABEC21FA449E5009BBEB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AABEC61FA449E5009BBEB4 /* PBXTargetDependency */,
+			);
+			name = SKVideoPlayTests;
+			productName = SKVideoPlayTests;
+			productReference = 03AABEC41FA449E5009BBEB4 /* SKVideoPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03AABECE1FA449E5009BBEB4 /* SKVideoPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AABEDE1FA449E5009BBEB4 /* Build configuration list for PBXNativeTarget "SKVideoPlayUITests" */;
+			buildPhases = (
+				03AABECB1FA449E5009BBEB4 /* Sources */,
+				03AABECC1FA449E5009BBEB4 /* Frameworks */,
+				03AABECD1FA449E5009BBEB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AABED11FA449E5009BBEB4 /* PBXTargetDependency */,
+			);
+			name = SKVideoPlayUITests;
+			productName = SKVideoPlayUITests;
+			productReference = 03AABECF1FA449E5009BBEB4 /* SKVideoPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AABEA31FA449E4009BBEB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xunli;
+				TargetAttributes = {
+					03AABEAA1FA449E4009BBEB4 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+					};
+					03AABEC31FA449E5009BBEB4 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03AABEAA1FA449E4009BBEB4;
+					};
+					03AABECE1FA449E5009BBEB4 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03AABEAA1FA449E4009BBEB4;
+					};
+				};
+			};
+			buildConfigurationList = 03AABEA61FA449E4009BBEB4 /* Build configuration list for PBXProject "SKVideoPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03AABEA21FA449E4009BBEB4;
+			productRefGroup = 03AABEAC1FA449E4009BBEB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AABEAA1FA449E4009BBEB4 /* SKVideoPlay */,
+				03AABEC31FA449E5009BBEB4 /* SKVideoPlayTests */,
+				03AABECE1FA449E5009BBEB4 /* SKVideoPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AABEA91FA449E4009BBEB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AABF181FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl@2x.png in Resources */,
+				03AABF0D1FA44A03009BBEB4 /* full_minimize_btn_hl@2x.png in Resources */,
+				03AABF0E1FA44A03009BBEB4 /* full_minimize_btn_hl@3x.png in Resources */,
+				03AABF151FA44A03009BBEB4 /* Contents.json in Resources */,
+				03AABF0A1FA44A03009BBEB4 /* bg_media_default@2x.jpg in Resources */,
+				03AABF141FA44A03009BBEB4 /* full_play_btn_hl@3x.png in Resources */,
+				03AABF101FA44A03009BBEB4 /* full_pause_btn_hl@2x.png in Resources */,
+				03AABF191FA44A03009BBEB4 /* mini_launchFullScreen_btn_hl@3x.png in Resources */,
+				03AABF091FA44A03009BBEB4 /* Contents.json in Resources */,
+				03AABF1A1FA44A03009BBEB4 /* Contents.json in Resources */,
+				03AABEBE1FA449E4009BBEB4 /* LaunchScreen.storyboard in Resources */,
+				03AABF1C1FA44A03009BBEB4 /* Contents.json in Resources */,
+				03AABF111FA44A03009BBEB4 /* full_pause_btn_hl@3x.png in Resources */,
+				03AABF131FA44A03009BBEB4 /* full_play_btn_hl@2x.png in Resources */,
+				03AABF0C1FA44A03009BBEB4 /* Contents.json in Resources */,
+				03AABF1B1FA44A03009BBEB4 /* MinimumTrackImage@2x.png in Resources */,
+				03AABF161FA44A03009BBEB4 /* MaximumTrackImage@2x.png in Resources */,
+				03AABEBB1FA449E4009BBEB4 /* Assets.xcassets in Resources */,
+				03AABF081FA44A03009BBEB4 /* VideoPlayView.xib in Resources */,
+				03AABF1F1FA44C1E009BBEB4 /* register_guide_video.mp4 in Resources */,
+				03AABEB91FA449E4009BBEB4 /* Main.storyboard in Resources */,
+				03AABF0F1FA44A03009BBEB4 /* Contents.json in Resources */,
+				03AABF1D1FA44A03009BBEB4 /* thumbImage@2x.png in Resources */,
+				03AABF0B1FA44A03009BBEB4 /* Contents.json in Resources */,
+				03AABF121FA44A03009BBEB4 /* Contents.json in Resources */,
+				03AABF171FA44A03009BBEB4 /* Contents.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AABEC21FA449E5009BBEB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AABECD1FA449E5009BBEB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AABEA71FA449E4009BBEB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AABEB61FA449E4009BBEB4 /* ViewController.m in Sources */,
+				03AABF071FA44A03009BBEB4 /* VideoPlayView.m in Sources */,
+				03AABF061FA44A03009BBEB4 /* FullViewController.m in Sources */,
+				03AABEB31FA449E4009BBEB4 /* AppDelegate.m in Sources */,
+				03AABEB01FA449E4009BBEB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AABEC01FA449E5009BBEB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AABEC91FA449E5009BBEB4 /* SKVideoPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AABECB1FA449E5009BBEB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AABED41FA449E5009BBEB4 /* SKVideoPlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AABEC61FA449E5009BBEB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AABEAA1FA449E4009BBEB4 /* SKVideoPlay */;
+			targetProxy = 03AABEC51FA449E5009BBEB4 /* PBXContainerItemProxy */;
+		};
+		03AABED11FA449E5009BBEB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AABEAA1FA449E4009BBEB4 /* SKVideoPlay */;
+			targetProxy = 03AABED01FA449E5009BBEB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AABEB71FA449E4009BBEB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AABEB81FA449E4009BBEB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03AABEBC1FA449E4009BBEB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AABEBD1FA449E4009BBEB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AABED61FA449E5009BBEB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03AABED71FA449E5009BBEB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AABED91FA449E5009BBEB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKVideoPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunli.www.SKVideoPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03AABEDA1FA449E5009BBEB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = SKVideoPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunli.www.SKVideoPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03AABEDC1FA449E5009BBEB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKVideoPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunli.www.SKVideoPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKVideoPlay.app/SKVideoPlay";
+			};
+			name = Debug;
+		};
+		03AABEDD1FA449E5009BBEB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKVideoPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunli.www.SKVideoPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKVideoPlay.app/SKVideoPlay";
+			};
+			name = Release;
+		};
+		03AABEDF1FA449E5009BBEB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKVideoPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunli.www.SKVideoPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKVideoPlay;
+			};
+			name = Debug;
+		};
+		03AABEE01FA449E5009BBEB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKVideoPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunli.www.SKVideoPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKVideoPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AABEA61FA449E4009BBEB4 /* Build configuration list for PBXProject "SKVideoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AABED61FA449E5009BBEB4 /* Debug */,
+				03AABED71FA449E5009BBEB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AABED81FA449E5009BBEB4 /* Build configuration list for PBXNativeTarget "SKVideoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AABED91FA449E5009BBEB4 /* Debug */,
+				03AABEDA1FA449E5009BBEB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03AABEDB1FA449E5009BBEB4 /* Build configuration list for PBXNativeTarget "SKVideoPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AABEDC1FA449E5009BBEB4 /* Debug */,
+				03AABEDD1FA449E5009BBEB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03AABEDE1FA449E5009BBEB4 /* Build configuration list for PBXNativeTarget "SKVideoPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AABEDF1FA449E5009BBEB4 /* Debug */,
+				03AABEE01FA449E5009BBEB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AABEA31FA449E4009BBEB4 /* Project object */;
+}
